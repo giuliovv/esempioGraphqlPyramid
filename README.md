@@ -13,5 +13,6 @@ Per testare lo schema graphql scritto in layerGraohql.py vai su localhost:8765/g
 L'esempio di pyramid (https://trypyramid.com/) è tratto sputato da qua: https://github.com/graphql-python/webob-graphql
 
 Non ho testato l'esempio in App.js ma l'idea è quella. Molto importante tenere la chiamata a graphql in cima a tutto e poi usare refetch per cambiare i parametri se serve. Graphql ti aggiorna anche la roba come facciamo con firebase.
+Fatto con Apollo (https://www.apollographql.com/docs/react/)
 
 Comodo perchè puoi modificare front e back quanto ti pare ma lasciando sempre lo schema inalterato quindi senza dover andare avanti e indietro a modificare cose perchè cambiano le API.
